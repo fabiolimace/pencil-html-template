@@ -14,17 +14,17 @@
                 <script src="Resources/CustomScript.js"/>
             </head>
             <body onload="first()">
-				<div id="Prototype">
-					<div id="PrototypeHeader">
-		            	<div id="PrototypeTitle"><xsl:value-of select="/p:Document/p:Properties/p:Property[@name='fileName']/text()"/></div>
-					</div>
-					<div id="PrototypeBody">
-			            <xsl:apply-templates select="/p:Document/p:Pages/p:Page" />
-					</div>
-					<div id="PrototypeFooter">
-		            	<div id="PrototypeMetadata">Exported at: <xsl:value-of select="/p:Document/p:Properties/p:Property[@name='exportTime']/text()"/></div>
-					</div>
-				</div>
+                <div id="Prototype">
+                    <div id="PrototypeHeader">
+                        <div id="PrototypeTitle"><xsl:value-of select="/p:Document/p:Properties/p:Property[@name='fileName']/text()"/></div>
+                    </div>
+                    <div id="PrototypeBody">
+                        <xsl:apply-templates select="/p:Document/p:Pages/p:Page" />
+                    </div>
+                    <div id="PrototypeFooter">
+                        <div id="PrototypeMetadata">Exported at: <xsl:value-of select="/p:Document/p:Properties/p:Property[@name='exportTime']/text()"/></div>
+                    </div>
+                </div>
             </body>
         </html>
     </xsl:template>
@@ -34,11 +34,11 @@
                 <div class="PageTitle">
                     <xsl:value-of select="p:Properties/p:Property[@name='name']/text()"/>
                 </div>
-				<div class="PageNavigator">
-					<span onclick="first();">First</span> | 
-					<span onclick="previous();">Previous</span> | 
-					<span onclick="next();">Next</span>
-				</div>
+                <div class="PageNavigator">
+                    <span onclick="first();">First</span> | 
+                    <span onclick="previous();">Previous</span> | 
+                    <span onclick="next();">Next</span>
+                </div>
             </div>
             <div class="PageBody">
                 <div class="ImageContainer">
