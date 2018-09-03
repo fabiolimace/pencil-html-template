@@ -1,0 +1,67 @@
+
+#Prototype {
+}
+
+#PrototypeHeader {
+}
+
+#PrototypeTitle {
+	font-size: large;
+	font-weight: bold;
+}
+
+#PrototypeBody {
+}
+
+#PrototypeFooter {
+}
+
+#PrototypeMetadata {
+	font-weight: normal;
+	font-style: italic;
+	font-size: small;
+}
+
+.Page {
+}
+
+.PageHeader {
+}
+
+.PageTitle {
+	font-size: normal;
+	font-weight: bold;
+}
+
+.PageNavigator {
+	font-size: small;
+	font-weight: normal;
+}
+
+.PageBody {
+	position: relative;
+}
+
+.ImageContainer img {
+	border-width: thin;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+.Link {
+	position: absolute;
+	border-width: thin;
+	border-style: solid;
+	border-color: transparent;
+	background-color: transparent;
+	border-radius: 5px;
+	display: block;
+}
+
+.Link:hover {
+	border-color: #0000FF55;
+	background-color: #0000FF11;
+	display: block;
+}
+

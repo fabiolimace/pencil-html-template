@@ -1,0 +1,8 @@
+<Template xmlns="http://www.evolus.vn/Namespace/Pencil">
+    <Property name="id">Evolus:HTML:Custom</Property>
+    <Property name="name">Custom HTML Template</Property>
+    <Property name="author">Fabio Lima</Property>
+    <Property name="description">HTML template for Pencil created by Fabio Lima</Property>
+    
+    <Property name="styleSheet">StyleSheet.xslt</Property>
+</Template>
