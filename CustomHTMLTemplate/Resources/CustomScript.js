@@ -23,8 +23,10 @@ function hideAll() {
 }
 
 function go(id) {
-	hideAll();
-	show(id);
+	setTimeout(function(){
+		hideAll();
+		show(id);
+	}, 300);
 }
 
 function goIndex(i) {
