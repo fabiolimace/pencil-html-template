@@ -15,3 +15,10 @@ Copy the folder CustomHTMLTemplate into "/home/username/.pencil/exportTemplates/
 When exporting, select "Single web page", and select "Custom HTML Template".
 
 That is all.
+
+### Example screenshots
+
+![Main screen](pencil-html-template/Example/Popup%20Example/Screenshots/main_frame_screenshot.png)
+
+![Popup screen](pencil-html-template/Example/Popup%20Example/Screenshots/popup_frame_screenshot.png)
+
