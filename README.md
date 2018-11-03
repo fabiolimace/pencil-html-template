@@ -18,7 +18,7 @@ That is all.
 
 ### Example screenshots
 
-![Main screen](pencil-html-template/Example/Popup%20Example/Screenshots/main_frame_screenshot.png)
+![Main screen](https://raw.githubusercontent.com/fabiolimace/pencil-html-template/master/Example/Popup%20Example/Screenshots/main_frame_screenshot.png)
 
-![Popup screen](pencil-html-template/Example/Popup%20Example/Screenshots/popup_frame_screenshot.png)
+![Popup screen](https://raw.githubusercontent.com/fabiolimace/pencil-html-template/master/Example/Popup%20Example/Screenshots/popup_frame_screenshot.png)
 
